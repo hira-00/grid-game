@@ -22,6 +22,7 @@ const Grid = () => {
 
 //check if the numbers in the sequence are fibonacci
   const isFib = (arr) => {
+    //all zeroes are not part of a fib sequence
     if (arr.every(item => item === 0)) {
       return false
     }
@@ -51,7 +52,7 @@ const Grid = () => {
     }, 500)
 
   }
-
+//code for incrementing the rows and columns
   const incrementRowsAndColumns = (rowIdx, colIdx) => {
     let current = [...grid];
     current[rowIdx][colIdx] += 1;
