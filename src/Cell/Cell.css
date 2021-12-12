@@ -1,0 +1,7 @@
+.cell {
+  width: 25px;
+  height: 25px;
+  outline: 1px solid grey;
+  display: inline-block;
+  color: rgb(167, 163, 163);
+}

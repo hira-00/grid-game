@@ -1,0 +1,42 @@
+.grid {
+  padding-top: 100px;
+  padding-right: 50px;
+}
+
+.row {
+  height: 25px;
+}
+
+body {
+  background: darkslategray;
+}
+
+.heading {
+  color: white;
+  font-size: 50px;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 250px;
+}
+
+.reset {
+  background-color: #4caf50;
+  border: 1px solid grey;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 100px;
+  margin-top: 900px;
+}
+
+.buttonClass {
+  margin-bottom: 400px;
+}
+
+.container {
+  display: flex;
+}
