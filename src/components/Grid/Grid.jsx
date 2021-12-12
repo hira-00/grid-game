@@ -20,7 +20,7 @@ const Grid = () => {
            isPerfectSquare(5 * n * n - 4);
   }
 
-
+//check if the numbers in the sequence are fibonacci
   const isFib = (arr) => {
     if (arr.every(item => item === 0)) {
       return false
