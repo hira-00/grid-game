@@ -13,3 +13,5 @@
 #### `npm run start`
 
 The app will now run on http://localhost:3000
+
+(open in Chrome for best results, zoom out to 67% zoom if it does not fit the screen)
